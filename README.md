@@ -1,44 +1,47 @@
-# 🐍 Snake Game
+# 👾 Space Invaders
 
-A classic Snake game built with HTML5 Canvas and JavaScript. Features modern styling, responsive design, and smooth gameplay.
+A classic Space Invaders game built with HTML5 Canvas and JavaScript. Features retro-style sound effects, screen shake, and smooth gameplay.
 
 ## Features
 
-- **Classic Snake Gameplay**: Control the snake to eat food and grow longer
-- **Modern UI**: Beautiful gradient background with glass-morphism effects
+- **Classic Space Invaders Gameplay**: Control your spaceship to destroy waves of alien invaders
+- **Retro Sound Effects**: Authentic beeps and boops for shooting, explosions, and game events
+- **Screen Shake Effects**: Visual feedback when destroying enemies for enhanced impact
 - **Responsive Design**: Works on desktop and mobile devices
-- **Score System**: Track your current score and high score (saved locally)
-- **Game Controls**: Start, pause, and reset functionality
-- **Keyboard Controls**: Use arrow keys or WASD to control the snake
-- **Collision Detection**: Wall and self-collision detection
-- **Local Storage**: High score persistence between sessions
+- **Score System**: Earn points by destroying different types of invaders
+- **Lives System**: Start with 3 lives and avoid enemy fire
+- **Level Progression**: Increasing difficulty as you advance through levels
+- **Modern UI**: Sleek sci-fi styling with neon green aesthetics
 
 ## How to Play
 
-1. Open `index.html` in your web browser
-2. Click "Start Game" to begin
-3. Use arrow keys or WASD to control the snake:
-   - ↑/W: Move up
-   - ↓/S: Move down
-   - ←/A: Move left
-   - →/D: Move right
-4. Eat the red food to grow and increase your score
-5. Avoid hitting the walls or the snake's own body
-6. Try to beat your high score!
+1. Open `space-invaders.html` in your web browser
+2. Press SPACE to start the game
+3. Use arrow keys to control your spaceship:
+   - ←: Move left
+   - →: Move right
+   - SPACE: Shoot bullets
+4. Destroy all alien invaders to advance to the next level
+5. Avoid enemy bullets to preserve your 3 lives
+6. Different invader types give different points:
+   - Small invaders: 30 points
+   - Medium invaders: 20 points
+   - Large invaders: 10 points
 
 ## Game Controls
 
-- **Start Game**: Begin a new game
-- **Pause**: Pause/unpause the current game
-- **Reset**: Reset the game to initial state
+- **SPACE**: Start game / Shoot bullets
+- **← →**: Move spaceship left and right
+- **Play Again**: Restart after game over or victory
 
 ## Technical Details
 
 - Built with vanilla HTML5, CSS3, and JavaScript
 - Uses HTML5 Canvas for game rendering
-- Responsive design with CSS Grid and Flexbox
-- Local storage for high score persistence
-- Smooth animations and modern styling
+- Web Audio API for retro-style sound effects
+- Screen shake effects using canvas transformations
+- Responsive design with modern CSS
+- Smooth 60fps animations with requestAnimationFrame
 
 ## Browser Compatibility
 
@@ -51,12 +54,12 @@ This game works in all modern browsers that support:
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/devxiexie/space_invader
    ```
 
-2. Open `index.html` in your web browser
+2. Open `space-invaders.html` in your web browser
 
-3. Start playing!
+3. Start defending Earth from alien invaders!
 
 ## License
 
@@ -64,4 +67,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-Enjoy playing Snake! 🎮
+Enjoy playing Space Invaders! 🚀👾
